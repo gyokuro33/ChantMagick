@@ -1,11 +1,7 @@
 # coding:utf-8
 
-import gensim
 import spacy
 from flask import Flask
-import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn import metrics
 from sklearn import svm
 import csv
 import numpy as np
