@@ -19,5 +19,5 @@ pip install "https://github.com/megagonlabs/ginza/releases/download/latest/ginza
 ```
 
 ## 使い方
-以下の記事の使い方の欄を参照
+以下の記事の使い方の欄を参照  
 https://qiita.com/mfuji3326/items/0fb0c9a2690cf45ac8c3
