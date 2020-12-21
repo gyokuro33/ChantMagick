@@ -17,8 +17,13 @@ def hello(word=None):
     return result
 
 def read_csv(csv_file):
-    data_array = np.zeros((100, 100))
-    target_array = np.zeros(100)
+    line_num = 0
+    with open(csv_file) as f:
+        reader = csv.reader(f)
+        for num, row in enumerate(reader):
+            line_num += 1
+    data_array = np.zeros((line_num, 100))
+    target_array = np.zeros(line_num)
     with open(csv_file) as f:
         reader = csv.reader(f)
         for num, row in enumerate(reader):
