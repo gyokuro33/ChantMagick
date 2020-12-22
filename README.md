@@ -19,5 +19,8 @@ pip install "https://github.com/megagonlabs/ginza/releases/download/latest/ginza
 ```
 
 ## 使い方
-以下の記事の使い方の欄を参照  
-https://qiita.com/mfuji3326/items/0fb0c9a2690cf45ac8c3
+### 1. 以下のコマンドでNLPServer.pyを起動
+```
+python .\NLPServer.py
+```
+### 2. UnityApp内のChantMagick.exeを起動してかっこいい詠唱をすると良い感じに魔法が使える
